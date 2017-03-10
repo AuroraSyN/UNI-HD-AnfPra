@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="How to use FMC">
+	<topic label="User Guide"  href="html/User_Guide.html"> 
+		<topic href="html/Run_FMC.html" label="Run FMC">
+     <topic href="html/Save_Metrics.html" label="Save Metrics">
+     </topic>
+  </topic>
+  <topic href="html/History.html" label="History">
+  </topic>
+  <topic href="html/Diagram.html" label="Diagram">
+  </topic> 
+	</topic>
+</toc>

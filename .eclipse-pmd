@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-pmd xmlns="http://acanda.ch/eclipse-pmd/0.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://acanda.ch/eclipse-pmd/0.8 http://acanda.ch/eclipse-pmd/eclipse-pmd-0.8.xsd">
+  <analysis enabled="false" />
+  <rulesets>
+    <ruleset name="Basic" ref="pmd-ruleset/basic.xml" refcontext="project" />
+    <ruleset name="Braces" ref="pmd-ruleset/braces.xml" refcontext="project" />
+    <ruleset name="Code Size" ref="pmd-ruleset/codesize.xml" refcontext="project" />
+    <ruleset name="Comments" ref="pmd-ruleset/comments.xml" refcontext="project" />
+    <ruleset name="Coupling" ref="pmd-ruleset/coupling.xml" refcontext="project" />
+    <ruleset name="Empty Code" ref="pmd-ruleset/empty.xml" refcontext="project" />
+    <ruleset name="Finalizer" ref="pmd-ruleset/finalizers.xml" refcontext="project" />
+    <ruleset name="Import Statements" ref="pmd-ruleset/imports.xml" refcontext="project" />
+    <ruleset name="Naming" ref="pmd-ruleset/naming.xml" refcontext="project" />
+    <ruleset name="Optimization" ref="pmd-ruleset/optimizations.xml" refcontext="project" />
+    <ruleset name="Strict Exceptions" ref="pmd-ruleset/strictexception.xml" refcontext="project" />
+    <ruleset name="String and StringBuffer" ref="pmd-ruleset/strings.xml" refcontext="project" />
+    <ruleset name="Type Resolution" ref="pmd-ruleset/typeresolution.xml" refcontext="project" />
+    <ruleset name="Unnecessary" ref="pmd-ruleset/unnecessary.xml" refcontext="project" />
+    <ruleset name="Unused Code" ref="pmd-ruleset/unusedcode.xml" refcontext="project" />
+  </rulesets>
+</eclipse-pmd>
