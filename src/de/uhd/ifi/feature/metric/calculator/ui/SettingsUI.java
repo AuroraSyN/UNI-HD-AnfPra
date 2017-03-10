@@ -177,6 +177,9 @@ public class SettingsUI {
                 workbenchPage.hideView(myView);
                 try {
             		int swap = Integer.parseInt(text.getText());
+            		if (swap == 0){
+            			MessageDialog.openInformation(shell, "Feature Metrics Calculator", "Save interval is 0, set to default (10 min)");
+            		}
             		if (swap < 201){
             			swap = swap*1000*60;
             			Provider.writeTime(swap);

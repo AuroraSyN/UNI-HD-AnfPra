@@ -291,7 +291,6 @@ public class MainUI extends ViewPart{
 	public void autoRefresh(){
 		if(!(saveTime == null)){
 			if (saveTime.equals("0")){
-    			MessageDialog.openInformation(parent.getShell(), "Feature Metrics Calculator", "Save interval is 0, set to default (10 min)");
 				time = 600000;
 			}else {
 				System.out.println("timer = " + saveTime);
