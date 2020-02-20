@@ -1,4 +1,4 @@
-# UNI-HD-AnfPra
-Anfänger Praktikum Software 
+# Heidelberg university
+Software internship
 
-AnfPra WS 2016/2017
+Metric Plugin for Eclipse 
